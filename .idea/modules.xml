@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Playwright_cbus.iml" filepath="$PROJECT_DIR$/Playwright_cbus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Playwright_cbus_codeChallenge.iml" filepath="$PROJECT_DIR$/Playwright_cbus_codeChallenge.iml" />
     </modules>
   </component>
 </project>
