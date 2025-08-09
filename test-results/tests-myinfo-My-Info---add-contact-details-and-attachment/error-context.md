@@ -1,0 +1,148 @@
+# Page snapshot
+
+```yaml
+- complementary:
+  - navigation "Sidepanel":
+    - link "client brand banner":
+      - /url: https://www.orangehrm.com/
+      - img "client brand banner"
+    - textbox "Search"
+    - button ""
+    - separator
+    - list:
+      - listitem:
+        - link "Admin":
+          - /url: /web/index.php/admin/viewAdminModule
+      - listitem:
+        - link "PIM":
+          - /url: /web/index.php/pim/viewPimModule
+      - listitem:
+        - link "Leave":
+          - /url: /web/index.php/leave/viewLeaveModule
+      - listitem:
+        - link "Time":
+          - /url: /web/index.php/time/viewTimeModule
+      - listitem:
+        - link "Recruitment":
+          - /url: /web/index.php/recruitment/viewRecruitmentModule
+      - listitem:
+        - link "My Info":
+          - /url: /web/index.php/pim/viewMyDetails
+      - listitem:
+        - link "Performance":
+          - /url: /web/index.php/performance/viewPerformanceModule
+      - listitem:
+        - link "Dashboard":
+          - /url: /web/index.php/dashboard/index
+      - listitem:
+        - link "Directory":
+          - /url: /web/index.php/directory/viewDirectory
+      - listitem:
+        - link "Maintenance":
+          - /url: /web/index.php/maintenance/viewMaintenanceModule
+      - listitem:
+        - link "Claim":
+          - /url: /web/index.php/claim/viewClaimModule
+          - img
+          - text: Claim
+      - listitem:
+        - link "Buzz":
+          - /url: /web/index.php/buzz/viewBuzz
+- banner:
+  - heading "PIM" [level=6]
+  - link "Upgrade":
+    - /url: https://orangehrm.com/open-source/upgrade-to-advanced
+    - button "Upgrade"
+  - list:
+    - listitem:
+      - img "profile picture"
+      - paragraph: manda user
+      - text: 
+  - navigation "Topbar Menu":
+    - list:
+      - button ""
+- heading "manda user" [level=6]
+- img "profile picture"
+- tablist:
+  - tab "Personal Details":
+    - link "Personal Details":
+      - /url: /web/index.php/pim/viewPersonalDetails/empNumber/7
+  - tab "Contact Details":
+    - link "Contact Details":
+      - /url: /web/index.php/pim/contactDetails/empNumber/7
+  - tab "Emergency Contacts":
+    - link "Emergency Contacts":
+      - /url: /web/index.php/pim/viewEmergencyContacts/empNumber/7
+  - tab "Dependents":
+    - link "Dependents":
+      - /url: /web/index.php/pim/viewDependents/empNumber/7
+  - tab "Immigration":
+    - link "Immigration":
+      - /url: /web/index.php/pim/viewImmigration/empNumber/7
+  - tab "Job":
+    - link "Job":
+      - /url: /web/index.php/pim/viewJobDetails/empNumber/7
+  - tab "Salary":
+    - link "Salary":
+      - /url: /web/index.php/pim/viewSalaryList/empNumber/7
+  - tab "Report-to":
+    - link "Report-to":
+      - /url: /web/index.php/pim/viewReportToDetails/empNumber/7
+  - tab "Qualifications":
+    - link "Qualifications":
+      - /url: /web/index.php/pim/viewQualifications/empNumber/7
+  - tab "Memberships":
+    - link "Memberships":
+      - /url: /web/index.php/pim/viewMemberships/empNumber/7
+- heading "Contact Details" [level=6]
+- separator
+- heading "Address" [level=6]
+- separator
+- text: Street 1
+- textbox: 600 Latrobe st
+- text: Street 2
+- textbox
+- text: City
+- textbox
+- text: State/Province
+- textbox: Docklands
+- text: Zip/Postal Code
+- textbox
+- text: Country -- Select -- 
+- heading "Telephone" [level=6]
+- separator
+- text: Home
+- textbox
+- text: Mobile
+- textbox
+- text: Work
+- textbox: 112-898-7612
+- heading "Email" [level=6]
+- separator
+- text: Work Email
+- textbox: paul1@osohrm.com
+- text: Other Email
+- textbox
+- separator
+- paragraph: "* Required"
+- button "Save"
+- separator
+- heading "Add Attachment" [level=6]
+- separator
+- text: Select File*
+- button "Choose File"
+- text: Browse No file selected 
+- paragraph: Accepts up to 1MB
+- text: Comment
+- textbox "Type comment here"
+- separator
+- paragraph: "* Required"
+- button "Cancel"
+- button "Save"
+- paragraph: OrangeHRM OS 5.7
+- paragraph:
+  - text: © 2005 - 2025
+  - link "OrangeHRM, Inc":
+    - /url: http://www.orangehrm.com
+  - text: . All rights reserved.
+```
